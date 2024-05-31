@@ -17,10 +17,10 @@ if sys.version_info < (3,1):
     sys.exit("Only Python 3.1 and greater is supported")
 
 setup(
-    name='atreyu_backtrader_api',
+    name='atreyu_backtrader_api_lucas_version',
     version=version,
     packages=['atreyu_backtrader_api'],
-    url='https://github.com/atreyuxtrading/atreyu-backtrader-api',
+    url='https://github.com/lcm6097/atreyu-backtrader-api_lucas_version',
     license='Simplified BSD license',
     author='Atreyu Trading',
     author_email='info@atreyugroup.com',

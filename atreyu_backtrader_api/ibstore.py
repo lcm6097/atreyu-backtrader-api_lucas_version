@@ -190,7 +190,7 @@ class RTBar(object):
         self.low = low
         self.close = close
         self.volume = volume
-        self.wap = wap
+        # self.wap = wap
         self.count = count
 
     def __str__(self):
@@ -208,7 +208,7 @@ class HistBar(object):
         self.low = bar.low
         self.close = bar.close
         self.volume = bar.volume
-        self.wap = bar.wap
+        # self.wap = bar.wap
         self.count = bar.barCount
 
     def __str__(self):
