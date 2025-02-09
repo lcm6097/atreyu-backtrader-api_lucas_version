@@ -146,7 +146,8 @@ class IBOrder(OrderBase, ibapi.order.Order):
         # Set the prices
         self.lmtPrice = 0.0
         self.auxPrice = 0.0
-
+        self.eTradeOnly = False
+        self.firmQuoteOnly = False
         if self.exectype == self.Market:  # is it really needed for Market?
             pass
         elif self.exectype == self.Close:  # is it ireally needed for Close?
